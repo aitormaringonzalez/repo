@@ -54,4 +54,9 @@ public class Cercle{
 			return false;
 		return true;
 	} 
+	public void main (String[] args){
+		Cercle c = new Cercle(2,3);
+		Cercle c1 = new Cercle();
+		Cercle c2 = new Cercle(c);
+	}
 }
